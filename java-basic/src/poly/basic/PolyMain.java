@@ -24,5 +24,9 @@ public class PolyMain {
         //자식의 기능은 호출할 수 없다. 컴파일 오류 발생
         //poly.childMethod();
 
+        System.out.println("Bumo -> Jasic");
+        Bumo roly = new Jasic();
+        roly.bumoMethod();
+
     }
 }
